@@ -1,0 +1,56 @@
+{
+  "name": "markt-rbldnsd",
+  "version": "1.1.0",
+  "author": "markt.de",
+  "summary": "Puppet Module to manage rbldnsd",
+  "license": "MIT",
+  "source": "https://github.com/markt-de/puppet-rbldnsd",
+  "project_page": "https://github.com/markt-de/puppet-rbldnsd",
+  "issues_url": "https://github.com/markt-de/puppet-rbldnsd/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "11"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "22.04"
+      ]
+    },
+    {
+      "operatingsystem": "FreeBSD",
+      "operatingsystemrelease": [
+        "13"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.21.0 < 8.0.0"
+    }
+  ],
+  "pdk-version": "2.7.1",
+  "template-url": "pdk-default#2.7.4",
+  "template-ref": "tags/2.7.4-0-g58edf57"
+}
