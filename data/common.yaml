@@ -1,1 +1,9 @@
---- {}
+---
+rbldnsd::config_template: 'rbldnsd/rbldnsd.conf.erb'
+rbldnsd::listener: '127.0.0.1'
+rbldnsd::manage_config: true
+rbldnsd::package_ensure: 'installed'
+rbldnsd::package_name: 'rbldnsd'
+rbldnsd::service_enable: true
+rbldnsd::service_ensure: 'running'
+rbldnsd::zones: []

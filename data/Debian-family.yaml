@@ -1,0 +1,2 @@
+---
+rbldnsd::config_file: '/etc/default/rbldnsd'
